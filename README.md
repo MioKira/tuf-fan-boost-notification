@@ -43,7 +43,74 @@ This Bash script monitors the fan boost mode of ASUS TUF laptops and sends notif
 
 ## Autostart with System
 
-To make the script start with your system, follow the instructions in the Autostart Section of the script's README.
+To ensure that the Fan Boost Mode Notification Script starts automatically with your system, you can add it to your system's startup applications. The steps vary depending on your desktop environment. Here are instructions for some common desktop environments:
+
+### GNOME:
+
+1. Press `Alt + F2` to open the Run Command dialog.
+
+2. Type `gnome-session-properties` and press Enter.
+
+3. Click on "Add" and enter the following details:
+   - Name: Fan Boost Notification
+   - Command: `/path/to/FanNotification.sh` (replace with the actual path to your script)
+
+4. Click "Add" and then close the Startup Applications Preferences.
+
+### KDE (Plasma):
+
+1. Open System Settings.
+
+2. Go to "Startup and Shutdown" -> "Autostart."
+
+3. Click on "Add Script" and enter the following details:
+   - Name: Fan Boost Notification
+   - Command: `/path/to/FanNotification.sh` (replace with the actual path to your script)
+
+4. Click "OK."
+
+### XFCE:
+
+1. Open the XFCE Application Menu.
+
+2. Go to "Settings" -> "Session and Startup."
+
+3. Navigate to the "Application Autostart" tab.
+
+4. Click "Add" and enter the following details:
+   - Name: Fan Boost Notification
+   - Command: `/path/to/FanNotification.sh` (replace with the actual path to your script)
+
+5. Click "OK."
+
+### LXQt:
+
+1. Open LXQt Configuration Center.
+
+2. Go to "Session Settings."
+
+3. Navigate to the "Autostart" tab.
+
+4. Click "Add" and enter the following details:
+   - Name: Fan Boost Notification
+   - Command: `/path/to/FanNotification.sh` (replace with the actual path to your script)
+
+5. Click "Add" and then close the Configuration Center.
+
+### Cinnamon:
+
+1. Open the Cinnamon Menu.
+
+2. Go to "Preferences" -> "Startup Applications."
+
+3. Click "Add" and enter the following details:
+   - Name: Fan Boost Notification
+   - Command: `/path/to/FanNotification.sh` (replace with the actual path to your script)
+
+4. Click "Add" and then close the Startup Applications dialog.
+
+Adjust the command path accordingly to the actual location of your script. This process ensures that your fan boost notification script runs automatically when your desktop environment starts.
+
 
 ## License
 This script is licensed under the MIT License - see the LICENSE file for details.
