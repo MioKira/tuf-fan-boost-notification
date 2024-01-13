@@ -9,12 +9,11 @@ This Bash script monitors the fan boost mode of ASUS TUF laptops and sends notif
 - `libnotify` package (install using your package manager)
 
 ## Usage
-- Arch Users 
-```
-yay -S tuf-fan-boost-notification
-
-```
--Other Distros
+- Arch through AUR
+   ```bash
+   yay -S tuf-fan-boost-notification   
+   ```
+- Other Distros
 1. Download or clone the repository to your local machine:
 
    ```bash
