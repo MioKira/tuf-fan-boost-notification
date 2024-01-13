@@ -11,8 +11,8 @@ This Bash script monitors the fan boost mode of ASUS TUF laptops and sends notif
 ## Usage
 - Arch through AUR
    ```bash
-   yay -S tuf-fan-boost-notification-git   
-   ```
+  yay -S tuf-fan-boost-notification-git
+     ```
 - Other Distros
 1. Download or clone the repository to your local machine:
 
